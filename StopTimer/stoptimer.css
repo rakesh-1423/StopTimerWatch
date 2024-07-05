@@ -1,0 +1,39 @@
+body{
+  background-image: url(image.png);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.main{
+  border: 2px solid gray;
+  max-width: 300px;
+  padding: 20px; /*10px 10px 100px;*/
+  align-items: center;
+  margin-left: 36%;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.btn{
+  width: 90px;
+  height: 37px;
+  margin: 5px 0px 5px 5px;
+  border-radius: 7px;
+  border:none;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(66, 209, 161);
+}
+.btn:focus{
+  background-color: rgb(240, 163, 163);
+}
+.showtimer1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  padding-left:140px;
+}
+#savetimer{
+  padding-left:80px;
+}
